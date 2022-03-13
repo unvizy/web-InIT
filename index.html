@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="icon" href="assets/img/fav.png" sizes="16x16" type="image/png" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="assets/css/style.css?v=<?php echo time(); ?>" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <title>Hstki!</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header>
+      <div class="header-inner">
+        <nav class="navbar navbar-expand-lg navbar-fixed-top navbar-light">
+          <div class="container">
+            <a class="navbar-brand" href="index.php"><img class="image-logo" src="assets/img/logo.svg" alt="" /></a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-custom navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="menu-custom" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="menu-custom" href="#produk">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="menu-custom" href="#tentang">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="menu-custom" href="#produk">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="menu-custom" href="#tentang">Member</a>
+                </li>
+                <li class="nav-item">
+                  <a class="menu-custom" href="#tentang">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- Akhir Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="page-home">
+      <div class="container jumbotron">
+        <div class="row">
+          <div class="col-md-6">
+            <h1 class="heading1-custom" style="width: 80%">
+              Upgrade your <br />
+              skills <span>with us</span>
+            </h1>
+          </div>
+          <div class="text1 col-md-6">
+            <p>STUDENT ASSOCIATION OF COMPUTER AND INFORMATICS ENGINEERING VOCATIONAL HIGH SCHOOL 2 TASIKMALAYA</p>
+          </div>
+        </div>
+      </div>
+      <div id="carouselExampleIndicators" class="carousel slide container" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner" data-aos="zoom-in">
+          <div class="carousel-item active">
+            <img src="assets/img/img-jumbotron.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/img-jumbotron.jpg" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="assets/img/img-jumbotron.jpg" class="d-block w-100" alt="..." />
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <section class="store-trend-categories content">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 join-header" data-aos="fade-up">
+              <h1 style="color: white">
+                Why should you join <br />
+                our team
+              </h1>
+              <p style="color: white">
+                Because we can help you improve your skills and gain some <br />
+                knowledge. Here are some materials we can teach to :
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-categories d-block">
+                <div class="categories-image">
+                  <img src="assets/img/code.svg" alt="" class="w-100" />
+                </div>
+                <p class="categories-text">Full Stack Webdev</p>
+              </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-delay="200">
+              <a href="" style="text-decoration: none" class="components-categories d-block">
+                <div class="categories-image">
+                  <img src="assets/img/layers.svg" alt="" class="w-100" />
+                </div>
+                <p class="categories-text">UI/UX Design</p>
+              </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-delay="300">
+              <a href="" style="text-decoration: none" class="components-categories d-block">
+                <div class="categories-image">
+                  <img src="assets/img/network.svg" alt="" class="w-100" />
+                </div>
+                <p class="categories-text">IT NSA</p>
+              </a>
+            </div>
+            <div class="col-6 col-md-3 col-lg-2" data-aos="fade-up" data-aos-delay="400">
+              <a href="" style="text-decoration: none" class="components-categories d-block">
+                <div class="categories-image">
+                  <img src="assets/img/robot.svg" alt="" class="w-100" />
+                </div>
+                <p class="categories-text">Internet Of Things</p>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="container About">
+          <div class="row">
+            <div class="col-12 join-header" data-aos="fade-up">
+              <h1 style="color: white">About US</h1>
+            </div>
+            <div class="row" style="margin-top: 10vw" data-aos="fade-up">
+              <div class="col-md-7">
+                <img class="img-about" src="assets/img/img-about.png" alt="" />
+              </div>
+              <div class="col-md-5">
+                <p class="text1" style="color: white">STUDENT ASSOCIATION OF COMPUTER AND INFORMATICS ENGINEERING VOCATIONAL HIGH SCHOOL 2 TASIKMALAYA</p>
+                <p style="color: white">was founded to fulfill the wishes of student who wants to learn more about something related to the material in the major itself.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="store-new-products">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mt-5" data-aos="fade-up">
+              <h1>Completed Project</h1>
+            </div>
+          </div>
+          <div class="row mt-5">
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <a href="details.html" style="text-decoration: none" class="components-product d-block">
+                <div class="products-thumbnail">
+                  <div class="products-images" style="background-image: url(assets/img/project.jpg)"></div>
+                </div>
+
+                <div class="products-text">SMART CLASS</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="200">
+              <a href="details.html" style="text-decoration: none" class="components-product d-block">
+                <div class="products-thumbnail">
+                  <div class="products-images" style="background-image: url(images/np2.jpg)"></div>
+                </div>
+                <div class="products-text">SIMONEY</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <a href="details.html" style="text-decoration: none" class="components-product d-block">
+                <div class="products-thumbnail">
+                  <div class="products-images" style="background-image: url(images/np3.jpg)"></div>
+                </div>
+                <div class="products-text">SMART WATERING PLANT</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <a href="details.html" style="text-decoration: none" class="components-product d-block">
+                <div class="products-thumbnail">
+                  <div class="products-images" style="background-image: url(images/np3.jpg)"></div>
+                </div>
+                <div class="products-text">SMART WATERING PLANT</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Member -->
+      <section class="member">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 mt-5" style="text-align: center" data-aos="fade-up">
+              <h1>Our Team Member</h1>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center mt-5">
+            <div class="col-6 col-md-4 col-lg-3 mt-5" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-member d-block">
+                <div class="member-thumbnail">
+                  <div class="member-images" style="background-image: url(assets/img/Avatar\ 1.png)"></div>
+                </div>
+                <div class="member-text ms-3">M.Naufal</div>
+                <div class="text-member ms-4">Secretary</div>
+                <div class="text-member2">UI/UX Instructure</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-member d-block">
+                <div class="member-thumbnail">
+                  <div class="member-images" style="background-image: url(assets/img/Avatar2.jpg)"></div>
+                </div>
+                <div class="member-text">Hary Miftah Fauzan</div>
+                <div class="text-member ms-5">Leader</div>
+                <div class="text-member2">Network Instructure</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-5" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-member d-block">
+                <div class="member-thumbnail">
+                  <div class="member-images" style="background-image: url(assets/img/Avatar3.jpg)"></div>
+                </div>
+                <div class="member-text">Febryan Dwi Rizqi <span class="ms-4">Darmawan</span></div>
+                <div class="text-member">Public Relation Division</div>
+                <div class="text-member2 ms-4">IoT Instructure</div>
+              </a>
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center mt-5">
+            <div class="col-6 col-md-4 col-lg-3 mt-5" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-member d-block">
+                <div class="member-thumbnail">
+                  <div class="member-images" style="background-image: url(assets/img/avatar4.png)"></div>
+                </div>
+                <div class="member-text">Nurzaman Asyabani</div>
+                <div class="text-member ms-5">Documentation</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-member d-block">
+                <div class="member-thumbnail">
+                  <div class="member-images" style="background-image: url(assets/img/Avatar5.jpg)"></div>
+                </div>
+                <div class="member-text">Jihan Haura Hasan</div>
+                <div class="text-member ms-5">Treasurer</div>
+              </a>
+            </div>
+            <div class="col-6 col-md-4 col-lg-3 mt-5" data-aos="fade-up" data-aos-delay="100">
+              <a href="" style="text-decoration: none" class="components-member d-block">
+                <div class="member-thumbnail">
+                  <div class="member-images" style="background-image: url(assets/img/avatar6.png)"></div>
+                </div>
+                <div class="member-text">Muhammad Genta <span class="ms-5">Mahardika</span></div>
+                <div class="text-member ms-5">Public Relation</div>
+                <div class="text-member2 ms-4">Web Dev Instructure</div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="footer-dark">
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-md-3 item" data-aos="fade-up" data-aos-delay="100">
+              <h3>Services</h3>
+              <ul>
+                <li><a href="#">Web design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Networking</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-6 col-md-3 item" data-aos="fade-up" data-aos-delay="200">
+              <h3>About</h3>
+              <ul>
+                <li><a href="#">Company</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Careers</a></li>
+              </ul>
+            </div>
+            <div class="col-md-6 item text" data-aos="fade-up" data-aos-delay="300">
+              <h3>Our Address</h3>
+              <p>Jl. Noenoeng Tisnasaputra, Kahuripan, Kec. Tawang, Tasikmalaya, Jawa Barat 46115</p>
+            </div>
+            <div class="col item social" data-aos="fade-up" data-aos-delay="400">
+              <a href="#"><i class="bi bi-facebook"></i></a><a href="#"><i class="bi bi-envelope"></i></a><a href="#"><i class="bi bi-whatsapp"></i></a><a href="#"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <p class="copyright">HSTKI TEAM © 2021</p>
+        </div>
+      </footer>
+    </div>
+    <!-- Akhir Jumbotron -->
+    <!-- Project -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/navbar-scroll.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript">
+      $(function () {
+        var navbar = $('.header-inner');
+        $(window).scroll(function () {
+          if ($(window).scrollTop() <= 40) {
+            navbar.removeClass('navbar-scroll');
+          } else {
+            navbar.addClass('navbar-scroll');
+          }
+        });
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
